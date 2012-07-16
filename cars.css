@@ -1,0 +1,170 @@
+#header {
+    height: 120px;
+    position: relative;
+}
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+}
+
+.veh-count {
+    font-size: 14px;
+}
+.veh-count strong {
+    font-size: 22px;
+}
+.row:before,
+.row:after {
+  display: table;
+  content: "";
+}
+
+.row:after {
+  clear: both;
+}
+
+[class*="span"] {
+  float: left;
+  margin-left: 20px;
+}
+.span2 {
+    width: 140px;
+}
+.offset2 {
+    margin-left: 180px;
+}
+.span3 {
+  width: 220px;
+}
+.lspan {
+  width: 174px;
+  float: left;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+.span6 {
+    width: 460px;
+}
+.vehicle {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-repeat: repeat-both;
+    float: left;
+    margin: 2px;
+    z-index: 99;
+}
+.vehicle.placed {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.vehicle-row {
+    position: relative;
+}
+.veh-group {
+    height: 100px;
+    margin-right: 1px;
+    float: left;
+    z-index: 99;
+}
+.veh-svg {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+.veh-vis {
+    width: 700px;
+    position: relative;
+}
+.commute-time {
+    left: 20px;
+    display: none;
+}
+.commute-time .c {
+    width: 180px;
+}
+.bridge-toll {
+    right: 40px;
+    display: none;
+}
+.commute-time, .bridge-toll {
+    top: 15px;
+    position: absolute;
+    height: 80px;
+    font-size: 20px;
+}
+.commute-time .c, .bridge-toll .c {
+    font-size: 30px;
+    padding: 5px 10px;
+    background-color: #F2B95E;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0;
+}
+.truck .veh-count {
+    color: #999999;
+}
+.car1 .veh-count {
+    color: #334D33;
+}
+.car2 .veh-count {
+    color: #356B34;
+}
+.bus .veh-count {
+    color: #359C46;
+}
+.bike .veh-count {
+    color: #74BF43;
+}
+.bt {
+    position: absolute;
+    width: 300px;
+    left: 10px;
+    top: 10px;
+}
+.bt p, .ct p {
+    text-align: center;
+}
+.bt p.a {
+    font-size: 18px;
+}
+.bt p.b, .ct p.b {
+    font-size: 24px;
+}
+.bt .b a, .bt .b span {
+    color: #666;
+    text-decoration: none;
+    padding: 2px 12px;
+    border-radius: 3px;
+    margin: 0 15px;
+    border: 1px solid transparent;
+}
+.bt .b a {
+    background-color: #eee;
+    border: 1px solid #ddd;
+}
+.bt .b a:hover {
+    color: #222;
+}
+.ct {
+    position: absolute;
+    width: 300px;
+    right: 70px;
+    top: 10px;
+}
+.ct p {
+    
+}
+.ct p.a {
+    
+}
+.ct p.b {
+    
+}

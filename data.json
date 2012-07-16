@@ -1,0 +1,149 @@
+jsoncallback([
+    {
+        "scenario": "$0",
+        "name": "$0",
+        "commuteTime": 43,
+        "milliseconds": 5000,
+        "tollCharge": 0,
+        "data": [
+            {
+                "vehcount": 320,
+                "vehvelocity": 45,
+                "vehpixelspersecond": 20,
+                "vehdisplaycount": 10,
+                "vehspergroup": 1,
+                "vehtype": "truck"
+            },
+            {
+                "vehcount": 4686,
+                "vehvelocity": 45,
+                "vehpixelspersecond": 30,
+                "vehdisplaycount": 20,
+                "vehspergroup": 16,
+                "vehtype": "car1"
+            },
+            {
+                "vehcount": 1322,
+                "vehvelocity": 45,
+                "vehpixelspersecond": 10,
+                "vehspergroup": 5,
+                "vehdisplaycount": 9,
+                "vehtype": "car2"
+            },
+            {
+                "vehcount": 38,
+                "vehdisplaycount": 3,
+                "vehpixelspersecond": 20,
+                "vehspergroup": 1,
+                "vehvelocity": 45,
+                "vehtype": "bus"
+            },
+            {
+                "vehcount": 165,
+                "vehdisplaycount": 16,
+                "vehpixelspersecond": 20,
+                "vehspergroup": 1,
+                "vehvelocity": 99,
+                "vehtype": "bike"
+            }
+        ]
+    },
+    {
+        "scenario": "$8.35",
+        "name": "$8.35",
+        "commuteTime": 38,
+        "milliseconds": 1000,
+        "tollCharge": 8,
+        "data": [
+            {
+                "vehcount": 301,
+                "vehvelocity": 45,
+                "vehpixelspersecond": 20,
+                "vehdisplaycount": 10,
+                "vehspergroup": 1,
+                "vehtype": "truck"
+            },
+            {
+                "vehcount": 3093,
+                "vehvelocity": 45,
+                "vehpixelspersecond": 30,
+                "vehdisplaycount": 20,
+                "vehspergroup": 15,
+                "vehtype": "car1"
+            },
+            {
+                "vehcount": 873,
+                "vehvelocity": 45,
+                "vehpixelspersecond": 10,
+                "vehspergroup": 3,
+                "vehdisplaycount": 9,
+                "vehtype": "car2"
+            },
+            {
+                "vehcount": 46,
+                "vehdisplaycount": 3,
+                "vehpixelspersecond": 20,
+                "vehspergroup": 2,
+                "vehvelocity": 45,
+                "vehtype": "bus"
+            },
+            {
+                "vehcount": 211,
+                "vehdisplaycount": 16,
+                "vehpixelspersecond": 20,
+                "vehspergroup": 1,
+                "vehvelocity": 99,
+                "vehtype": "bike"
+            }
+        ]
+    },
+    {
+        "scenario": "$15.85",
+        "name": "$15.85",
+        "commuteTime": 23,
+        "milliseconds": 500,
+        "tollCharge": 15,
+        "data": [
+            {
+                "vehcount": 283,
+                "vehvelocity": 45,
+                "vehpixelspersecond": 20,
+                "vehdisplaycount": 10,
+                "vehspergroup": 1,
+                "vehtype": "truck"
+            },
+            {
+                "vehcount": 1856,
+                "vehvelocity": 45,
+                "vehpixelspersecond": 30,
+                "vehdisplaycount": 20,
+                "vehspergroup": 13,
+                "vehtype": "car1"
+            },
+            {
+                "vehcount": 524,
+                "vehvelocity": 45,
+                "vehpixelspersecond": 10,
+                "vehspergroup": 2,
+                "vehdisplaycount": 9,
+                "vehtype": "car2"
+            },
+            {
+                "vehcount": 71,
+                "vehdisplaycount": 3,
+                "vehpixelspersecond": 20,
+                "vehspergroup": 3,
+                "vehvelocity": 45,
+                "vehtype": "bus"
+            },
+            {
+                "vehcount": 285,
+                "vehdisplaycount": 16,
+                "vehpixelspersecond": 20,
+                "vehspergroup": 3,
+                "vehvelocity": 99,
+                "vehtype": "bike"
+            }
+        ]
+    }
+])
