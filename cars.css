@@ -150,6 +150,11 @@
     background-color: #eee;
     border: 1px solid #ddd;
 }
+.bt .b span {
+    background-color: #666;
+    border: 1px solid #333;
+    color: #fff;
+}
 .bt .b a:hover {
     color: #222;
 }
